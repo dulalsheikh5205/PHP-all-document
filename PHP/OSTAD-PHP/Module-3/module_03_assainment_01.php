@@ -40,3 +40,12 @@
   fun(3,4);
 ?>
 
+<?php
+
+$number = 25;
+
+if($number % 2 == 0){
+  echo "$number is an Even number";
+}else{
+  echo "$number is an Odd number";
+}
