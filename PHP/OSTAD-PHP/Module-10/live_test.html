@@ -1,0 +1,66 @@
+<!-- Question
+
+Instructions:
+
+ 
+
+Use Bootstrap to create a responsive navigation bar according to the design specifications provided.
+
+ 
+
+Design Specifications:
+
+ 
+
+a) Create a navigation bar that includes a logo and links to three sections: Home, About, and Contact.
+
+b) The navigation bar should be responsive and collapse into a hamburger menu on smaller screens.
+
+c) When the hamburger menu is clicked, the menu items should slide down.
+
+d) The logo should be aligned to the left side of the navigation bar and the menu items should be aligned to the right side of the navigation bar.
+
+The active menu item should be highlighted. -->
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Module 10 live test</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation area start  -->
+    <nav class="navbar navbar-expand-lg shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img width="50px"
+                    src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png"
+                    alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBar"
+                aria-controls="navBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>
