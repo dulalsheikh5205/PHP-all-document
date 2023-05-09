@@ -1,0 +1,74 @@
+/* Write a JavaScript function that selects an element with an id of "myList" and adds a new list item with the text "Apples" to the end of the list */
+
+
+// function addListItem() {
+//     // Select the unordered list element with an id of "myList"
+//     let myList = document.querySelector('#myList');
+    
+//     // Create a new list item element and set its text content to "Apples"
+//     let newItem = document.createElement('li');
+//     newItem.textContent = 'Apples';
+    
+//     // Append the new list item to the end of the unordered list
+//     myList.appendChild(newItem);
+//   }
+
+
+//   function addListItem() {
+//     // select the element with the id "myList"
+//     var myList = document.getElementById("myList");
+  
+//     // create a new list item element
+//     var newListItem = document.createElement("li");
+  
+//     // set the text content of the new list item
+//     var textNode = document.createTextNode("Apples");
+//     newListItem.appendChild(textNode);
+  
+//     // append the new list item to the end of the list
+//     myList.appendChild(newListItem);
+//   }
+  
+
+
+//   <body>
+//   <ul id="myList">
+//     <li>Oranges</li>
+//     <li>Bananas</li>
+//   </ul>
+  
+//   <script>
+//     addListItem();
+//   </script>
+// </body>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add item</title>
+</head>
+
+<body>
+    <ul id="myList"></ul>
+    <button onclick="addListItem()">Add apple</button>
+    <script>
+        function addListItem() {
+            let myList = document.querySelector('#myList');
+
+            // Create a new list item element and set its text content to "Apples"
+            let newItem = document.createElement('li');
+            newItem.textContent = 'Apples';
+
+            // Append the new list item to the end of the unordered list
+            myList.appendChild(newItem);
+        }
+    </script>
+</body>
+
+</html>
